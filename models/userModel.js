@@ -1,6 +1,6 @@
 const mongoose = require("mongoose");
 
-//schema design   what is benefit of schema?
+//schema design
 const userSchema = new mongoose.Schema(
   {
     name: {
@@ -19,8 +19,6 @@ const userSchema = new mongoose.Schema(
   },
   { timestamps: true }
 );
-
-// what is meant by model in mongoose.model?
 
 //export
 const userModel = mongoose.model("users", userSchema);

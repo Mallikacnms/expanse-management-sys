@@ -9,8 +9,6 @@ const router = express.Router();
 
 //routers
 // POST || LOGIN USER
-// what do specifically the post do in this?
-
 router.post("/login", loginController);
 
 //POST || REGISTER USER
